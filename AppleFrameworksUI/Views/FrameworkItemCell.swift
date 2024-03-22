@@ -22,7 +22,7 @@ struct FrameworkItemCell: View {
                 .fontWeight(.semibold)
                 .scaledToFit()
                 .minimumScaleFactor(0.5)
-        }
+        }.padding()
     }
 }
 

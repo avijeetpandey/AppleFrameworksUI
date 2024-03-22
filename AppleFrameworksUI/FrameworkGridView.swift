@@ -14,9 +14,13 @@ struct FrameworkGridView: View {
                                GridItem(.flexible(), spacing: 1)]
     
     var body: some View {
-        LazyVGrid(columns: columns) {
-            ForEach(MockData.frameworks) { framework in
-                FrameworkItemCell(framework: framework)
+        NavigationStack {
+            ScrollView {
+                LazyVGrid(columns: columns) {
+                    ForEach(MockData.frameworks) { framework in
+                        FrameworkItemCell(framework: framework)
+                    }
+                }.navigationTitle("🍎 Frameworks")
             }
         }
     }
