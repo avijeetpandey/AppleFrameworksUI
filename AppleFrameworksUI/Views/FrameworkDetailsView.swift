@@ -12,6 +12,7 @@ struct FrameworkDetailsView: View {
     
     var body: some View {
         VStack {
+            CloseButton()
             
             Spacer()
             
