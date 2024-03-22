@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "spritekit.png",
       "idiom" : "universal"
     }
   ],

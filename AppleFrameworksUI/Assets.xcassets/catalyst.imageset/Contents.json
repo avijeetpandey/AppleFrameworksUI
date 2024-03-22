@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "catalyst.png",
       "idiom" : "universal"
     }
   ],

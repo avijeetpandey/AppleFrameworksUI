@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "cloudkit.png",
       "idiom" : "universal"
     }
   ],

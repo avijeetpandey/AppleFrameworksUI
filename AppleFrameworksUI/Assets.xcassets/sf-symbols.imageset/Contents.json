@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "sf-symbols.png",
       "idiom" : "universal"
     }
   ],

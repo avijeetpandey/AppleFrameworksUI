@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "arkit.png",
       "idiom" : "universal"
     }
   ],

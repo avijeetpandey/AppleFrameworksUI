@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "app-clip.png",
       "idiom" : "universal"
     }
   ],
