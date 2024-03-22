@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC15A4E32BADEC5F0044B873 /* FrameworkDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC15A4E22BADEC5F0044B873 /* FrameworkDetailsView.swift */; };
+		DC15A4E52BADECFE0044B873 /* LearnMoreButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC15A4E42BADECFE0044B873 /* LearnMoreButtonView.swift */; };
 		DCBACF342BADDF4800C043A6 /* AppleFrameworksUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBACF332BADDF4800C043A6 /* AppleFrameworksUIApp.swift */; };
 		DCBACF382BADDF4900C043A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBACF372BADDF4900C043A6 /* Assets.xcassets */; };
 		DCBACF3B2BADDF4900C043A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBACF3A2BADDF4900C043A6 /* Preview Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC15A4E22BADEC5F0044B873 /* FrameworkDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailsView.swift; sourceTree = "<group>"; };
+		DC15A4E42BADECFE0044B873 /* LearnMoreButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreButtonView.swift; sourceTree = "<group>"; };
 		DCBACF302BADDF4800C043A6 /* AppleFrameworksUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFrameworksUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBACF332BADDF4800C043A6 /* AppleFrameworksUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworksUIApp.swift; sourceTree = "<group>"; };
 		DCBACF372BADDF4900C043A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				DCBACF4A2BADE32800C043A6 /* FrameworkItemCell.swift */,
+				DC15A4E22BADEC5F0044B873 /* FrameworkDetailsView.swift */,
+				DC15A4E42BADECFE0044B873 /* LearnMoreButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,9 +178,11 @@
 			files = (
 				DCBACF462BADE14E00C043A6 /* MockData.swift in Sources */,
 				DCBACF482BADE20700C043A6 /* FrameworkGridView.swift in Sources */,
+				DC15A4E32BADEC5F0044B873 /* FrameworkDetailsView.swift in Sources */,
 				DCBACF432BADE12700C043A6 /* Framework.swift in Sources */,
 				DCBACF4B2BADE32800C043A6 /* FrameworkItemCell.swift in Sources */,
 				DCBACF342BADDF4800C043A6 /* AppleFrameworksUIApp.swift in Sources */,
+				DC15A4E52BADECFE0044B873 /* LearnMoreButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
