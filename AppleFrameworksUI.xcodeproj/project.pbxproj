@@ -11,6 +11,7 @@
 		DC15A4E52BADECFE0044B873 /* LearnMoreButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC15A4E42BADECFE0044B873 /* LearnMoreButtonView.swift */; };
 		DC15A4E72BADF0D00044B873 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC15A4E62BADF0D00044B873 /* CloseButton.swift */; };
 		DC15A4EA2BADF29B0044B873 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC15A4E92BADF29B0044B873 /* FrameworkGridViewModel.swift */; };
+		DC15A4EC2BAE8F460044B873 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC15A4EB2BAE8F460044B873 /* SafariView.swift */; };
 		DCBACF342BADDF4800C043A6 /* AppleFrameworksUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBACF332BADDF4800C043A6 /* AppleFrameworksUIApp.swift */; };
 		DCBACF382BADDF4900C043A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBACF372BADDF4900C043A6 /* Assets.xcassets */; };
 		DCBACF3B2BADDF4900C043A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBACF3A2BADDF4900C043A6 /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		DC15A4E42BADECFE0044B873 /* LearnMoreButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreButtonView.swift; sourceTree = "<group>"; };
 		DC15A4E62BADF0D00044B873 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
 		DC15A4E92BADF29B0044B873 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		DC15A4EB2BAE8F460044B873 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		DCBACF302BADDF4800C043A6 /* AppleFrameworksUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFrameworksUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBACF332BADDF4800C043A6 /* AppleFrameworksUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworksUIApp.swift; sourceTree = "<group>"; };
 		DCBACF372BADDF4900C043A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				DC15A4E22BADEC5F0044B873 /* FrameworkDetailsView.swift */,
 				DC15A4E42BADECFE0044B873 /* LearnMoreButtonView.swift */,
 				DC15A4E62BADF0D00044B873 /* CloseButton.swift */,
+				DC15A4EB2BAE8F460044B873 /* SafariView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				DCBACF482BADE20700C043A6 /* FrameworkGridView.swift in Sources */,
 				DC15A4E32BADEC5F0044B873 /* FrameworkDetailsView.swift in Sources */,
 				DCBACF432BADE12700C043A6 /* Framework.swift in Sources */,
+				DC15A4EC2BAE8F460044B873 /* SafariView.swift in Sources */,
 				DCBACF4B2BADE32800C043A6 /* FrameworkItemCell.swift in Sources */,
 				DC15A4EA2BADF29B0044B873 /* FrameworkGridViewModel.swift in Sources */,
 				DCBACF342BADDF4800C043A6 /* AppleFrameworksUIApp.swift in Sources */,
