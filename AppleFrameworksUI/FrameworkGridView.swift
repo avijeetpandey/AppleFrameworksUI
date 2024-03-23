@@ -11,14 +11,10 @@ struct FrameworkGridView: View {
     
     @StateObject private var viewModel = FrameworkGridViewModel()
     
-    let columns: [GridItem] = [GridItem(.flexible(), spacing: 1),
-                               GridItem(.flexible(), spacing: 1),
-                               GridItem(.flexible(), spacing: 1)]
-    
     var body: some View {
         NavigationStack {
             ScrollView {
-                LazyVGrid(columns: columns) {
+                LazyVGrid(columns: viewModel.columns) {
                     ForEach(MockData.frameworks) { framework in
                         FrameworkItemCell(framework: framework)
                             .onTapGesture {
