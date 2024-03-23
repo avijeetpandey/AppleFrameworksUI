@@ -27,7 +27,7 @@ struct FrameworkGridView: View {
                     }
                 }.navigationTitle("🍎 Frameworks")
                     .sheet(isPresented: $viewModel.isShowingDetailedView) {
-                        FrameworkDetailsView(framework: viewModel.selectedFramework ?? MockData.sampleFramework)
+                        FrameworkDetailsView(framework: viewModel.selectedFramework ?? MockData.sampleFramework, isShowingDetailView: $viewModel.isShowingDetailedView)
                     }
             }
         }

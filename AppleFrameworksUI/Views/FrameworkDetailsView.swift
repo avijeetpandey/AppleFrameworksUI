@@ -9,10 +9,11 @@ import SwiftUI
 
 struct FrameworkDetailsView: View {
     let framework: Framework
+    @Binding var isShowingDetailView: Bool
     
     var body: some View {
         VStack {
-            CloseButton()
+            CloseButton(isShowingDetailView: $isShowingDetailView)
             
             Spacer()
             
@@ -35,5 +36,5 @@ struct FrameworkDetailsView: View {
 
 
 #Preview {
-    FrameworkDetailsView(framework: MockData.sampleFramework)
+    FrameworkDetailsView(framework: MockData.sampleFramework, isShowingDetailView: .constant(false))
 }
